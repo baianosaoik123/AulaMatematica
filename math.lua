@@ -34,7 +34,7 @@ x, y  = f({-2, -1, 0, 1, 2})
 
 
 for k, v in pairs(y) do
-	print(y[k])
+	print(x[k]..", "..y[k])
 end
 
 --[[
